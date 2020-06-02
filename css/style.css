@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-banner {
+  position: relative;
+  min-height: 580px;
+}
+
+.ba_film_media .top-banner {
+  background-image: url('../images/ba_film_media/Banner_1_a.png');
+}
+
+.visual_arts .top-banner {
+  background-image: url('../images/visual_arts/Banner_2_a.png');
+}
+
+.ma_film_media .top-banner {
+  background-image: url('../images/ma_film_media/Banner_3_a.png');
+}
+
+.top-banner img{
+  width: 100%;
+}
+
+.top-banner .title {
+  width: 30%;
+  position: absolute;
+  top: calc(50% - 80px);
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.top-banner p {
+  color: #fff;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.enquire_now {
+  color: #fff;
+  padding: 10px 25px;
+  text-align: center;
+  border: none;
+  font-size: 23px;
+  text-decoration: none;
+}
+
+.enquire_now.yellow {
+  background-color: #EEB706;
+}
+
+.enquire_now.green {
+  background-color: #66BD7B;
+}
+
+.tabs {
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  border-radius: 20px 20px 0 0;
+  bottom: 80px;
+  background-color: #fff;
+}
+
+.tabs ul {
+  display: flex;
+  margin: 0 auto;
+  padding-inline-start: 0px;
+}
+
+.tabs ul li {
+  list-style: none;
+  width: 40%;
+  padding: 30px 0px;
+  text-align: center;
+  position: relative;
+  border-bottom: 1px solid #707070;
+}
+
+.tabs ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.ba_film_media .tabs ul li:nth-child(2)::after, .ma_film_media .tabs ul li:nth-child(1)::after {
+  content: " ";
+  position: absolute;
+  border-left: 1px solid #707070;
+  top: 30%;
+  right: 0;
+  height: 40%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.tabs ul li.active{
+  border-right: 1px solid #707070;
+  border-radius: 20px 20px 0 0;
+  border-bottom: none !important;
+}
+
+.visual_arts .tabs ul li.active,.ma_film_media .tabs ul li.active {
+  border-left: 1px solid #707070;
+}
+
+.tabs ul li.active a {
+  font-weight: bold;
+}
+
+.content-section {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.box {
+  min-height: 386px;
+  position: relative;
+}
+
+.box.script-writing {
+  background-image: url('../images/ba_film_media/Group_93.png');
+}
+
+.box.production {
+  background-image: url('../images/ba_film_media/Group_102.png');
+}
+
+.box.cinematography {
+  background-image: url('../images/ba_film_media/Group_92.png');
+}
+
+.box.editing {
+  background-image: url('../images/ba_film_media/Group_103.png');
+}
+
+.box.sound-design {
+  background-image: url('../images/ba_film_media/Group_104.png');
+}
+
+.box.digital-marketing {
+  background-image: url('../images/ba_film_media/Group_105.png');
+}
+
+.box.vfx {
+  background-image: url('../images/visual_arts/Group_93.png');
+}
+
+.box.digital_imaging {
+  background-image: url('../images/visual_arts/Group_106.png');
+}
+
+.box .content {
+  width: 65%;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.box .content p {
+  margin-bottom: 2rem;
+}
+
+.box .content.right {
+  left: auto;
+  right: -25%;
+  text-align: right;
+}
+
+.bottom-arrow {
+  border: 2px solid #EEB706;
+}
+
+.bottom-arrow:after {
+  content:'';
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-top: 25px solid #EEB706;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  z-index: 1;
+}
