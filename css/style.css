@@ -20,6 +20,11 @@ body {
   background-image: url('../images/ma_film_media/Banner_3_a.png');
 }
 
+.enquiry_form .top-banner {
+  background-image: url('../images/enquiry_form/Banner_4.png');
+}
+
+
 .top-banner img{
   width: 100%;
 }
