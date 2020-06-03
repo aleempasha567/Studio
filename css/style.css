@@ -24,8 +24,7 @@ body {
   background-image: url('../images/enquiry_form/Banner_4.png');
 }
 
-
-.top-banner img{
+.top-banner img {
   width: 100%;
 }
 
@@ -101,13 +100,13 @@ body {
   margin-bottom: auto;
 }
 
-.tabs ul li.active{
+.tabs ul li.active {
   border-right: 1px solid #707070;
   border-radius: 20px 20px 0 0;
   border-bottom: none !important;
 }
 
-.visual_arts .tabs ul li.active,.ma_film_media .tabs ul li.active {
+.visual_arts .tabs ul li.active, .ma_film_media .tabs ul li.active {
   border-left: 1px solid #707070;
 }
 
@@ -181,7 +180,7 @@ body {
 }
 
 .bottom-arrow:after {
-  content:'';
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -192,4 +191,124 @@ body {
   border-left: 30px solid transparent;
   border-right: 30px solid transparent;
   z-index: 1;
+}
+
+.enquiry-form {
+  width: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.label {
+  font-size: 13px;
+  color: #000;
+  line-height: 1.5;
+  text-transform: uppercase;
+  width: 100%;
+  padding-bottom: 11px;
+}
+
+.input-field {
+  display: block;
+  font-size: 15px;
+  color: #9B9B9B;
+  line-height: 1.2;
+  border: transparent;
+  border-bottom: 1px solid #9B9B9B !important;
+}
+
+.input-field2 {
+  font-size: 15px;
+  color: #9B9B9B;
+  line-height: 1.2;
+  border: transparent;
+  border-bottom: 1px solid #9B9B9B !important;
+  width: 100%;
+}
+
+.input-field3 {
+  font-size: 15px;
+  color: #9B9B9B;
+  line-height: 1.2;
+  border: transparent;
+  border-bottom: 1px solid #9B9B9B !important;
+  width: 100%;
+}
+
+#name {
+  background: url('../images/icons/Icon-material-person-pin.png') no-repeat;
+  padding-left: 35px;
+}
+
+#date {
+  background: url('../images/icons/Icon-awesome-baby-carriage.png') no-repeat;
+  padding-left: 35px;
+}
+
+#contact {
+  background: url('../images/icons/Icon-awesome-address-book.png') no-repeat;
+  padding-left: 35px;
+}
+
+#calc {
+  background: url('../images/icons/Icon-awesome-calendar-alt.png') no-repeat center right;
+  padding-right: 35px;
+  width: 24px;
+  height: 27px;
+}
+
+label#contact {
+  display: block;
+}
+
+.container-contact100-form-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -4px;
+}
+
+.wrap-input-field {
+  width: 28.5%;
+}
+
+.form-section1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.form-section2 {
+  width: 100%;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.wrap-input-field2 {
+  width: 5%;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.wrap-input-field3 {
+  width: 35%;
+  display: inline-block;
+}
+
+.wrap-input-field4 {
+  width: 35%;
+  display: inline-block;
 }

@@ -1,16 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
+
 <body class="enquiry_form">
   <div class="top-banner">
     <div class="title">
-      <p>Hi, thank you for your interest in joining Annapurna College of Film and Media. Let’s get to know you better. Please fill the form below -</p>
+      <p>
+        Hi, thank you for your interest in joining Annapurna College of Film
+        and Media. Let’s get to know you better. Please fill the form below -
+      </p>
     </div>
   </div>
+  <form class="enquiry-form validate-form">
+    <div class="form-section1">
+      <label id="name" class="label" for="first-name">Name</label>
+      <div class="wrap-input-field">
+        <input class="input-field" type="text" name="first-name" placeholder="First name" />
+      </div>
+      <div class="wrap-input-field">
+        <input class="input-field" type="text" name="middle-name" placeholder="Middle name" />
+      </div>
+      <div class="wrap-input-field">
+        <input class="input-field" type="text" name="last-name" placeholder="Last name" />
+      </div>
+
+      <label id="date" class="label" for="date-of-birth">Date of Birth</label>
+      <div class="wrap-input-field">
+        <input class="input-field" type="text" name="date" placeholder="Date" />
+      </div>
+      <div class="wrap-input-field">
+        <input class="input-field" type="text" name="month" placeholder="Month" />
+      </div>
+      <div class="wrap-input-field">
+        <input class="input-field3" type="text" name="year" placeholder="Year" />
+        <span id="calc"></span>
+      </div>
+    </div>
+    <div class="form-section2">
+      <label id="contact" class="label" for="contact-info">Contact Info</label>
+      <div class="wrap-input-field2">
+        <input id="mobile-addon" class="input-field2" type="text" name="mobile-addon" placeholder="+91" />
+      </div>
+      <div class="wrap-input-field3">
+        <input class="input-field" type="text" name="mobile-number" placeholder="Mobile number" />
+      </div>
+      <div class="wrap-input-field3">
+        <input class="input-field" type="text" name="email-address" placeholder="Email address" />
+      </div>
+    </div>
+
+    <div class="container-contact100-form-btn">
+      <button class="contact100-form-btn">
+        <span>
+          Submit
+          <i class="zmdi zmdi-arrow-right m-l-8"></i>
+        </span>
+      </button>
+    </div>
+  </form>
 </body>
+
 </html>
