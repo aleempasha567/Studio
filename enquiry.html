@@ -45,20 +45,54 @@
           <span id="calc"></span>
         </div>
       </div>
+
       <label id="contact" class="label" for="contact-info">Contact Info</label>
       <div class="input-wrapper">
         <div class="wrap-input-field2">
           <input id="mobile-addon" class="input-field2" type="text" name="mobile-addon" placeholder="+91" />
         </div>
-        <div class="wrap-input-field3">
+        <div class="wrap-input-field3" style="width: 25.5%;">
           <input class="input-field" type="text" name="mobile-number" placeholder="Mobile number" />
         </div>
-        <div class="wrap-input-field3">
+        <div class="wrap-input-field3" style="width: 34.5%;">
           <input class="input-field" type="text" name="email-address" placeholder="Email address" />
         </div>
       </div>
+      <div class="half-section">
+        <div class="wrap-input-field5 input-field">
+            <label id="select-program" class="label" for="select-program">Select Program</label>
+            <div class="form-select">
+                <select name="Program" id="Program">
+                    <option value="program">Select Program</option>
+                    <option value="program">Select Program</option>
+                    <option value="program">Select Program</option>
+                    <option value="program">Select Program</option>
+                    <option value="program">Select Program</option>
+                </select>
+            </div>
+        </div>
+        <div class="wrap-input-field6 input-field" style="margin-left: 0%;">
+            <label id="select-specialisation" class="label" for="select-specialisation">Select Specialisation</label>
+            <div class="form-select">
+                <select name="specialisation" id="specialisation">
+                    <option value="specialisation">Select Specialisation</option>
+                    <option value="specialisation">Select Specialisation</option>
+                    <option value="specialisation">Select Specialisation</option>
+                    <option value="specialisation">Select Specialisation</option>
+                    <option value="specialisation">Select Specialisation</option>
+                </select>
+            </div>
+        </div>
     </div>
-    <div class="container-contact100-form-btn">
+
+    <div class="checkbox">
+      <input type="checkbox" id="check1" name="check1" value="check1">
+      <label for="vehicle1">Confirm Eligibility- Select Checkbox. Eligibility should be as per the program selected</label><br>
+      <input type="checkbox" id="check2" name="check2" value="check2">
+      <label for="vehicle2">Read and Accept <span><a href="">Terms and Conditions</a></span></label>
+    </div>
+    </div>
+    <div class="form-submit-btn">
       <button class="enquire_now green">Submit</button>
     </div>
   </form>

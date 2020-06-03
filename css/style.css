@@ -89,7 +89,8 @@ body {
   text-decoration: none;
 }
 
-.ba_film_media .tabs ul li:nth-child(2)::after, .ma_film_media .tabs ul li:nth-child(1)::after {
+.ba_film_media .tabs ul li:nth-child(2)::after,
+.ma_film_media .tabs ul li:nth-child(1)::after {
   content: " ";
   position: absolute;
   border-left: 1px solid #707070;
@@ -106,7 +107,8 @@ body {
   border-bottom: none !important;
 }
 
-.visual_arts .tabs ul li.active, .ma_film_media .tabs ul li.active {
+.visual_arts .tabs ul li.active,
+.ma_film_media .tabs ul li.active {
   border-left: 1px solid #707070;
 }
 
@@ -208,6 +210,7 @@ body {
 .label {
   font-size: 13px;
   color: #000;
+  font-weight: 900;
   line-height: 1.5;
   text-transform: uppercase;
   width: 100%;
@@ -221,6 +224,7 @@ body {
   line-height: 1.2;
   border: transparent;
   border-bottom: 1px solid #9B9B9B !important;
+  width: 90%;
 }
 
 .input-field2 {
@@ -238,7 +242,7 @@ body {
   line-height: 1.2;
   border: transparent;
   border-bottom: 1px solid #9B9B9B !important;
-  width: 100%;
+  width: 90%;
 }
 
 #name {
@@ -253,21 +257,27 @@ body {
   background: url('../images/icons/Icon-awesome-address-book.png') no-repeat;
 }
 
+#select-program {
+  background: url('../images/icons/Icon-map-movie-theater.png') no-repeat;
+}
+
 #calc {
   background: url('../images/icons/Icon-awesome-calendar-alt.png') no-repeat center right;
   padding-right: 35px;
   width: 24px;
   height: 27px;
+  background-size: 40% auto;
 }
 
 label#contact {
   display: block;
 }
 
-.container-contact100-form-btn {
+.form-submit-btn {
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  margin-top:2rem;
 }
 
 .form-section1 {
@@ -284,6 +294,10 @@ label#contact {
   margin: 0 auto;
 }
 
+.wrap-input-field {
+  width: 100%;
+}
+
 .wrap-input-field2 {
   width: 5%;
   display: inline-block;
@@ -291,7 +305,7 @@ label#contact {
 }
 
 .wrap-input-field3 {
-  width: 35%;
+  width: 40%;
   display: inline-block;
 }
 
@@ -302,7 +316,85 @@ label#contact {
 
 .input-wrapper {
   display: flex;
-  justify-content: space-between;
-  width: 90%;
-  margin: 10px 0 2rem 0;
+  width: 100%;
+  margin: 10px 0 2rem 50px;
+}
+
+.half-section {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+}
+
+.half-section .input-field {
+  border: transparent !important;
+  display: inline-block;
+}
+.half-section .input-field.wrap-input-field5{
+  width: 38%;
+}
+.half-section .input-field.wrap-input-field6{
+  width: 50%;
+}
+.half-section #Program{
+  width: 74%;
+}
+.half-section select#specialisation{
+  margin: 10px 0;
+}
+#select-specialisation{
+  padding: 0;
+}
+
+.input-field {
+  margin-bottom: 23px;
+  position: relative;
+}
+
+.input-field:focus, .input-field3:focus, .input-field2:focus {
+  outline: none;
+}
+
+.form-select {
+  position: relative;
+}
+
+select {
+  color: #9B9B9B;
+}
+
+select#Program,
+select#specialisation {
+  width: 60%;
+  margin: 10px 0 10px 50px;
+  padding: 8px 0px;
+  color: #9B9B9B;
+  border: transparent;
+  border-bottom: 1px solid #9B9B9B !important;
+}
+
+select#Program:focus, select#specialisation {
+  outline: none;
+}
+
+.checkbox {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-left: 50px;
+}
+.checkbox label {
+  font-size: 14px;
+}
+.checkbox input {
+  width: 16px;
+    height: 16px;
+  margin: 10px 0px;
+  padding: 0;
+  vertical-align: middle;
+}
+.checkbox span a{
+  color:#32A4EB;
 }
