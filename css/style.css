@@ -202,7 +202,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 5rem auto;
 }
 
 .label {
@@ -211,7 +211,7 @@ body {
   line-height: 1.5;
   text-transform: uppercase;
   width: 100%;
-  padding-bottom: 11px;
+  padding: 6px 6px 6px 50px;
 }
 
 .input-field {
@@ -243,17 +243,14 @@ body {
 
 #name {
   background: url('../images/icons/Icon-material-person-pin.png') no-repeat;
-  padding-left: 35px;
 }
 
 #date {
   background: url('../images/icons/Icon-awesome-baby-carriage.png') no-repeat;
-  padding-left: 35px;
 }
 
 #contact {
   background: url('../images/icons/Icon-awesome-address-book.png') no-repeat;
-  padding-left: 35px;
 }
 
 #calc {
@@ -269,18 +266,8 @@ label#contact {
 
 .container-contact100-form-btn {
   width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: -4px;
-}
-
-.wrap-input-field {
-  width: 28.5%;
+  justify-content: flex-end;
 }
 
 .form-section1 {
@@ -311,4 +298,11 @@ label#contact {
 .wrap-input-field4 {
   width: 35%;
   display: inline-block;
+}
+
+.input-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 10px 0 2rem 0;
 }
