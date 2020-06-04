@@ -398,3 +398,65 @@ select#Program:focus, select#specialisation {
 .checkbox span a{
   color:#32A4EB;
 }
+
+.signupForm {
+  width: 25%;
+  background-color: white;
+  padding: 1.5rem 2rem;
+  border-radius: 50px;
+  float: right;
+  margin: 80px 180px 0 0;
+}
+
+.signupForm .signup-wrapper  {
+  margin: 2rem 0 1.5rem;
+}
+
+.signupForm .form-content h4 {
+  margin: 0;
+  color: #042665;
+}
+
+.signupForm .form-content .input-field {
+  width: 100%;
+  line-height: 2;
+}
+
+.signupForm .form-content .enquire_now {
+  float: right;
+}
+
+.signupForm .sucess-content {
+  padding: 4rem;
+}
+
+.signupForm .sucess-content .sucess-circle {
+  position: relative;
+  width: 60px;
+  margin: 0 auto;
+}
+
+.signupForm .sucess-content .sucess-circle .circle {
+  width: 60px;
+  height: 60px;
+  background-color: #66BE7B;
+  border-radius: 50%;
+}
+
+.signupForm .sucess-content .sucess-circle .circle::after {
+  content: "";
+  background-color: transparent;
+  position: absolute;
+  left: 20px;
+  top: 3px;
+  width: 14px;
+  border-bottom: 3px solid #fff;
+  height: 40px;
+  border-right: 3px solid #fff;
+  transform: rotate(45deg);
+}
+
+.signupForm .sucess-content h5 {
+  text-align: center;
+  color: #042665;
+}
