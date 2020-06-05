@@ -10,92 +10,98 @@
 
 <body class="enquiry_form">
   <div class="top-banner">
-    <div class="title">
-      <p>
-        Hi, thank you for your interest in joining Annapurna College of Film
-        and Media. Let’s get to know you better. Please fill the form below -
-      </p>
+    <div class="container">
+      <div class="title">
+        <p>
+          Hi, thank you for your interest in joining Annapurna College of Film
+          and Media. Let’s get to know you better. Please fill the form below -
+        </p>
+      </div>
     </div>
+    
   </div>
-  <form class="enquiry-form validate-form">
-    <div class="form-section1">
-      <label id="name" class="label" for="first-name">Name</label>
-      <div class="input-wrapper">
-        <div class="wrap-input-field">
-          <input class="input-field" type="text" name="first-name" placeholder="First name" />
+  <div class="container">
+    <form class="enquiry-form validate-form">
+      <div class="form-section1">
+        <label id="name" class="label" for="first-name">Name</label>
+        <div class="input-wrapper">
+          <div class="wrap-input-field">
+            <input class="input-field" type="text" name="first-name" placeholder="First name" />
+          </div>
+          <div class="wrap-input-field">
+            <input class="input-field" type="text" name="middle-name" placeholder="Middle name" />
+          </div>
+          <div class="wrap-input-field">
+            <input class="input-field" type="text" name="last-name" placeholder="Last name" />
+          </div>
         </div>
-        <div class="wrap-input-field">
-          <input class="input-field" type="text" name="middle-name" placeholder="Middle name" />
+
+        <label id="date" class="label" for="date-of-birth">Date of Birth</label>
+        <div class="input-wrapper">
+          <div class="wrap-input-field">
+            <input class="input-field" type="text" name="date" placeholder="Date" />
+          </div>
+          <div class="wrap-input-field">
+            <input class="input-field" type="text" name="month" placeholder="Month" />
+          </div>
+          <div class="wrap-input-field">
+            <input class="input-field3" type="text" name="year" placeholder="Year" />
+            <span id="calc"></span>
+          </div>
         </div>
-        <div class="wrap-input-field">
-          <input class="input-field" type="text" name="last-name" placeholder="Last name" />
+
+        <label id="contact" class="label" for="contact-info">Contact Info</label>
+        <div class="input-wrapper">
+          <div class="wrap-input-field2">
+            <input id="mobile-addon" class="input-field2" type="text" name="mobile-addon" placeholder="+91" />
+          </div>
+          <div class="wrap-input-field3">
+            <input class="input-field" type="text" name="mobile-number" placeholder="Mobile number" />
+          </div>
+          <div class="wrap-input-field3">
+            <input class="input-field" type="text" name="email-address" placeholder="Email address" />
+          </div>
         </div>
+        <div class="half-section">
+          <div class="wrap-input-field5 input-field">
+              <label id="select-program" class="label" for="select-program">Select Program</label>
+              <div class="form-select">
+                  <select name="Program" id="Program">
+                      <option value="program">Select Program</option>
+                      <option value="program">Select Program</option>
+                      <option value="program">Select Program</option>
+                      <option value="program">Select Program</option>
+                      <option value="program">Select Program</option>
+                  </select>
+              </div>
+          </div>
+          <div class="wrap-input-field6 input-field">
+              <label id="select-specialisation" class="label" for="select-specialisation">Select Specialisation</label>
+              <div class="form-select">
+                  <select name="specialisation" id="specialisation">
+                      <option value="specialisation">Select Specialisation</option>
+                      <option value="specialisation">Select Specialisation</option>
+                      <option value="specialisation">Select Specialisation</option>
+                      <option value="specialisation">Select Specialisation</option>
+                      <option value="specialisation">Select Specialisation</option>
+                  </select>
+              </div>
+          </div>
       </div>
 
-      <label id="date" class="label" for="date-of-birth">Date of Birth</label>
-      <div class="input-wrapper">
-        <div class="wrap-input-field">
-          <input class="input-field" type="text" name="date" placeholder="Date" />
-        </div>
-        <div class="wrap-input-field">
-          <input class="input-field" type="text" name="month" placeholder="Month" />
-        </div>
-        <div class="wrap-input-field">
-          <input class="input-field3" type="text" name="year" placeholder="Year" />
-          <span id="calc"></span>
-        </div>
+      <div class="checkbox">
+        <input type="checkbox" id="check1" name="check1" value="check1">
+        <label for="vehicle1">Confirm Eligibility- Select Checkbox. Eligibility should be as per the program selected</label><br>
+        <input type="checkbox" id="check2" name="check2" value="check2">
+        <label for="vehicle2">Read and Accept <span><a href="">Terms and Conditions</a></span></label>
       </div>
-
-      <label id="contact" class="label" for="contact-info">Contact Info</label>
-      <div class="input-wrapper">
-        <div class="wrap-input-field2">
-          <input id="mobile-addon" class="input-field2" type="text" name="mobile-addon" placeholder="+91" />
-        </div>
-        <div class="wrap-input-field3" style="width: 25.5%;">
-          <input class="input-field" type="text" name="mobile-number" placeholder="Mobile number" />
-        </div>
-        <div class="wrap-input-field3" style="width: 34.5%;">
-          <input class="input-field" type="text" name="email-address" placeholder="Email address" />
-        </div>
       </div>
-      <div class="half-section">
-        <div class="wrap-input-field5 input-field">
-            <label id="select-program" class="label" for="select-program">Select Program</label>
-            <div class="form-select">
-                <select name="Program" id="Program">
-                    <option value="program">Select Program</option>
-                    <option value="program">Select Program</option>
-                    <option value="program">Select Program</option>
-                    <option value="program">Select Program</option>
-                    <option value="program">Select Program</option>
-                </select>
-            </div>
-        </div>
-        <div class="wrap-input-field6 input-field" style="margin-left: 0%;">
-            <label id="select-specialisation" class="label" for="select-specialisation">Select Specialisation</label>
-            <div class="form-select">
-                <select name="specialisation" id="specialisation">
-                    <option value="specialisation">Select Specialisation</option>
-                    <option value="specialisation">Select Specialisation</option>
-                    <option value="specialisation">Select Specialisation</option>
-                    <option value="specialisation">Select Specialisation</option>
-                    <option value="specialisation">Select Specialisation</option>
-                </select>
-            </div>
-        </div>
-    </div>
-
-    <div class="checkbox">
-      <input type="checkbox" id="check1" name="check1" value="check1">
-      <label for="vehicle1">Confirm Eligibility- Select Checkbox. Eligibility should be as per the program selected</label><br>
-      <input type="checkbox" id="check2" name="check2" value="check2">
-      <label for="vehicle2">Read and Accept <span><a href="">Terms and Conditions</a></span></label>
-    </div>
-    </div>
-    <div class="form-submit-btn">
-      <button class="enquire_now green">Submit</button>
-    </div>
-  </form>
+      <div class="form-submit-btn">
+        <button class="enquire_now green">Submit</button>
+      </div>
+    </form>
+  </div>
+  
 </body>
 
 </html>

@@ -61,12 +61,12 @@ body {
 
 .tabs {
   position: relative;
-  width: 75%;
+  width: 100%;
   margin: 0 auto;
   border: 1px solid #fff;
   border-radius: 20px 20px 0 0;
-  bottom: 80px;
   background-color: #fff;
+  margin-top: 80px;
 }
 
 .tabs ul {
@@ -117,8 +117,9 @@ body {
 }
 
 .content-section {
-  width: 75%;
+  width: 100%;
   margin: 0 auto;
+  margin-top: 50px;
 }
 
 .box {
@@ -128,34 +129,42 @@ body {
 
 .box.script-writing {
   background-image: url('../images/ba_film_media/Group_93.png');
+  background-size: 100% 100%;
 }
 
 .box.production {
   background-image: url('../images/ba_film_media/Group_102.png');
+  background-size: 100% 100%;
 }
 
 .box.cinematography {
   background-image: url('../images/ba_film_media/Group_92.png');
+  background-size: 100% 100%;
 }
 
 .box.editing {
   background-image: url('../images/ba_film_media/Group_103.png');
+  background-size: 100% 100%;
 }
 
 .box.sound-design {
   background-image: url('../images/ba_film_media/Group_104.png');
+  background-size: 100% 100%;
 }
 
 .box.digital-marketing {
   background-image: url('../images/ba_film_media/Group_105.png');
+  background-size: 100% 100%;
 }
 
 .box.vfx {
   background-image: url('../images/visual_arts/Group_93.png');
+  background-size: 100% 100%;
 }
 
 .box.digital_imaging {
   background-image: url('../images/visual_arts/Group_106.png');
+  background-size: 100% 100%;
 }
 
 .box .content {
@@ -196,7 +205,7 @@ body {
 }
 
 .enquiry-form {
-  width: 50%;
+  width: 90%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -247,14 +256,17 @@ body {
 
 #name {
   background: url('../images/icons/Icon-material-person-pin.png') no-repeat;
+  background-size:  auto;
 }
 
 #date {
   background: url('../images/icons/Icon-awesome-baby-carriage.png') no-repeat;
+  background-size: auto;
 }
 
 #contact {
   background: url('../images/icons/Icon-awesome-address-book.png') no-repeat;
+  background-size: auto;
 }
 
 #select-program {
@@ -405,7 +417,7 @@ select#Program:focus, select#specialisation {
   padding: 1.5rem 2rem;
   border-radius: 50px;
   float: right;
-  margin: 80px 180px 0 0;
+  margin-top: 80px;
 }
 
 .signupForm .signup-wrapper  {
@@ -460,3 +472,88 @@ select#Program:focus, select#specialisation {
   text-align: center;
   color: #042665;
 }
+
+
+/******* Ram Css Section Start ********/
+
+.container {
+  width: 80%;
+  height: auto;
+  overflow: hidden;
+  margin: auto;
+  display: block;
+}
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%  ;
+  }
+  .ba_film_media .top-banner {
+    background-size: 100% 100%;
+  }
+  .top-banner p {
+    font-size: 21px;
+  }
+  .tabs {
+    margin-top: 40px;
+  }
+  .tabs ul li {
+    padding: 10px 5px;
+  }
+  .tabs ul li a {
+    font-size: 12px;    
+  }
+  .top-banner .title {
+      width: 100%;
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+  }
+  .signupForm {
+    width: 90%;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 30px;
+  }
+  .box { min-height: 265px;}
+  .box .content {
+    width: 100%;
+    left: 0;
+    top: 35%;
+    height: auto;
+    position: relative;
+    transform:none;
+  }
+  .box .content h2 {
+    font-size: 18px;
+  }
+  .box .content p {
+    font-size: 12px;
+  }
+  .box.script-writing {
+    background-size: 100% 100%;
+    padding: 20px 15px;
+    min-height: 360px;
+    overflow: hidden;
+  }
+  .enquire_now { float: right;}
+  .box .content.right { width: 90%; left: 0; padding: 20px 15px; overflow: hidden;}
+  .box.cinematography { padding: 20px 15px; min-height: 335px; overflow: hidden;}
+  .box.editing { min-height: 375px; overflow: hidden;}
+  .box.sound-design { padding: 20px 15px; min-height: 370px; overflow: hidden;}
+  .box.digital-marketing { padding: 20px 15px; min-height: 360px; overflow: hidden;}
+  .box.vfx { padding: 20px 15px; min-height: 220px; overflow: hidden;}
+  .box.digital_imaging { padding: 20px 15px; min-height: 280px; overflow: hidden;}
+  .enquiry_form .top-banner { min-height: auto; overflow: hidden;}
+  #name, #date, #contact { background-size: auto;}
+  .wrap-input-field2 { width: 10%;}
+  .half-section select#specialisation { width: 75%;}
+  .half-section .input-field.wrap-input-field6 { width: 100%;}
+  .half-section .input-field.wrap-input-field6 { padding-left: 48px;}
+  .half-section .input-field.wrap-input-field5 { width: 100%;}
+
+}
+
+/******* Ram Css Section End ********/
