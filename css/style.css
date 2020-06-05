@@ -439,7 +439,7 @@ select#Program:focus, select#specialisation {
 }
 
 .signupForm .sucess-content {
-  padding: 4rem;
+  padding: 3.3rem;
 }
 
 .signupForm .sucess-content .sucess-circle {
@@ -502,7 +502,7 @@ select#Program:focus, select#specialisation {
     padding: 10px 5px;
   }
   .tabs ul li a {
-    font-size: 12px;    
+    font-size: 12px;
   }
   .top-banner .title {
       width: 100%;
