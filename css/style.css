@@ -5,7 +5,6 @@ body {
 
 .top-banner {
   position: relative;
-  min-height: 580px;
 }
 
 .ba_film_media .top-banner {
@@ -29,7 +28,7 @@ body {
 }
 
 .top-banner .title {
-  width: 30%;
+  width: 36%;
   position: absolute;
   top: calc(50% - 80px);
   left: 25%;
@@ -44,10 +43,10 @@ body {
 
 .enquire_now {
   color: #fff;
-  padding: 10px 25px;
+  padding:6px 25px;
   text-align: center;
   border: none;
-  font-size: 22px;
+  font-size: 20px;
   text-decoration: none;
 }
 
@@ -63,10 +62,10 @@ body {
   position: relative;
   width: 100%;
   margin: 0 auto;
-  border: 1px solid #fff;
-  border-radius: 20px 20px 0 0;
-  background-color: #fff;
-  margin-top: 80px;
+  border: 1px solid #5b5b5b;
+  border-radius: 30px 30px 0 0;
+  background-color: #09090978;
+  margin-top: 100px;
 }
 
 .tabs ul {
@@ -78,14 +77,13 @@ body {
 .tabs ul li {
   list-style: none;
   width: 40%;
-  padding: 30px 0px;
+  padding: 15px 0px;
   text-align: center;
   position: relative;
-  border-bottom: 1px solid #707070;
 }
 
 .tabs ul li a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -103,8 +101,10 @@ body {
 
 .tabs ul li.active {
   border-right: 1px solid #707070;
-  border-radius: 20px 20px 0 0;
+  border-radius: 30px 30px 0 0;
   border-bottom: none !important;
+  background: #fff;
+  color: #000;
 }
 
 .visual_arts .tabs ul li.active,
@@ -114,12 +114,12 @@ body {
 
 .tabs ul li.active a {
   font-weight: bold;
+  color: #000;
 }
 
 .content-section {
   width: 100%;
   margin: 0 auto;
-  margin-top: 50px;
 }
 
 .box {
@@ -413,7 +413,7 @@ select#Program:focus, select#specialisation {
 
 .signupForm {
   width: 25%;
-  background-color: white;
+  background-color:#ffffffcc;
   padding: 1.5rem 2rem;
   border-radius: 50px;
   float: right;
@@ -431,7 +431,7 @@ select#Program:focus, select#specialisation {
 
 .signupForm .form-content .input-field {
   width: 100%;
-  line-height: 2;
+  background: transparent;
 }
 
 .signupForm .form-content .enquire_now {
@@ -477,7 +477,7 @@ select#Program:focus, select#specialisation {
 /******* Ram Css Section Start ********/
 
 .container {
-  width: 80%;
+  width: 86%;
   height: auto;
   overflow: hidden;
   margin: auto;
@@ -535,14 +535,14 @@ select#Program:focus, select#specialisation {
   .box.script-writing {
     background-size: 100% 100%;
     padding: 20px 15px;
-    min-height: 360px;
+    min-height: 245px;
     overflow: hidden;
   }
   .enquire_now { float: right;}
   .box .content.right { width: 90%; left: 0; padding: 20px 15px; overflow: hidden;}
-  .box.cinematography { padding: 20px 15px; min-height: 335px; overflow: hidden;}
-  .box.editing { min-height: 375px; overflow: hidden;}
-  .box.sound-design { padding: 20px 15px; min-height: 370px; overflow: hidden;}
+  .box.cinematography { padding: 20px 15px; min-height: 290px; overflow: hidden;}
+  .box.editing { min-height: 245px; overflow: hidden;}
+  .box.sound-design { padding: 20px 15px; min-height: 330px; overflow: hidden;}
   .box.digital-marketing { padding: 20px 15px; min-height: 360px; overflow: hidden;}
   .box.vfx { padding: 20px 15px; min-height: 220px; overflow: hidden;}
   .box.digital_imaging { padding: 20px 15px; min-height: 280px; overflow: hidden;}
